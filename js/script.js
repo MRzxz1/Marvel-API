@@ -2,7 +2,7 @@ const timeStamp = '1695315823';
 const apiKey = '2adcbf192267c5854a49fd0734a3df2d';
 const md5 = 'b276d144220f32ad66dadcf446621ab6';
 
-fetch('http://gateway.marvel.com/v1/public/characters?ts=1695315823&apikey=2adcbf192267c5854a49fd0734a3df2d&hash=b276d144220f32ad66dadcf446621ab6&limit=20'
+fetch('https://gateway.marvel.com/v1/public/characters?ts=1695315823&apikey=2adcbf192267c5854a49fd0734a3df2d&hash=b276d144220f32ad66dadcf446621ab6&limit=20'
 ).then((response) => {
     return response.json();
 }).then((jsonParsed) => {
@@ -34,7 +34,7 @@ function createDivHero(srcimage, nameHero, divToAppend){
     divPai.classList.add("personagens");
 }
 
-fetch('http://gateway.marvel.com/v1/public/comics?ts=1695315823&apikey=2adcbf192267c5854a49fd0734a3df2d&hash=b276d144220f32ad66dadcf446621ab6&limit=20'
+fetch('https://gateway.marvel.com/v1/public/comics?ts=1695315823&apikey=2adcbf192267c5854a49fd0734a3df2d&hash=b276d144220f32ad66dadcf446621ab6&limit=20'
 ).then((response) => {
     return response.json();
 }).then((jsonParsed) => {
