@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px) {
+   #templete{max-width: 100%;
+
+}
+
+h1{
+    text-align: left;
+    color: #fff;
+    margin: 16px;
+}
+.personagens {
+    width: 200px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 18px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+img {
+    width: 194px;
+    border-bottom-style: solid;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    text-align: center;
+    
+}
+
+   #herois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#comics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media only screen and ( max-width: 467px) {
+
+
+
+    #templete{max-width: 100%;
+
+    }
+    
+    h1{
+        text-align: center;
+        color: #fff;
+        margin: 16px;
+    }
+    .personagens {
+        width: 330px;
+        margin: 20px;
+        border-style: solid;
+        border-radius: 18px;
+        text-align: center;
+        color: #fff;
+    
+    }
+    
+    
+    
+    img {
+        width: 324px;
+        border-bottom-style: solid;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        text-align: center;
+        
+    }
+    
+       #herois{
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    #comics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo img {
+        max-height: 70px; /* Altura máxima do logotipo */
+        max-width: 200px;
+        padding-right: 16px;
+        border-bottom-style: solid;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        padding-left: 20px;
+    }
+}
